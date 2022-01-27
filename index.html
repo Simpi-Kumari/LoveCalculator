@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+   
+</head>
+
+<body>
+    
+    <div class="main">
+        <div class="first-part">
+            <h1>💛 Love Calculator 💛</h1>
+            <!-- <h2>Find Love % Between You and Your Partner </h2> -->
+            <h2> Take the true love compatibility test and find how much you score on the love calculator.</h2>
+            <h2>{ Enter the required details and hit ‘Calculate’ }</h2>
+        </div>
+            
+        <div class="Calculator-part">
+            <table class="table-prop" cellspacing="10px">
+                <tr>
+                    <td><img src="love_boy_left.png" alt=""></td>
+                    
+                    <td><img src="love_girl_right.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td>Your Name</td>
+                    <td>Your Crush Name</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="your name" maxlength="30" class="person1">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="your crush name" maxlength="30" class="person2">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" >
+                        <input type="button" value="Calculate" class="calculate-button" onclick="Randomgeneration()">
+                    </td>
+                </tr>
+                
+            </table>
+           
+            <div class="results">
+               
+                    <h3></h3>
+                <a href="index.html"><input type="button" class="reload" value="calculate again"></a>
+            </div>
+       <script src="index.js"></script>
+</body>
+</html>
